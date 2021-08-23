@@ -125,5 +125,15 @@ a.button-cta:hover {
         max-width: 100%;
     }
 
+}
+
+@media (min-width: 1400px) {
+    #hero {
+        margin: 0 auto;
+    }
+
+    .hero-wrap {
+        width: 1200px;
+    }
 
 }
