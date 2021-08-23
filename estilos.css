@@ -53,6 +53,7 @@ a.button-cta:hover {
 #hero {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background: #C0E4E3;
     min-height: 100vh;
     box-sizing: border-box;
@@ -109,12 +110,7 @@ a.button-cta:hover {
     /* Layout */
 
     #hero {
-        
         padding: 40px 50px;
-        align-items: stretch;
-        
-        justify-content: space-around;
-        flex-direction: column;
     }
 
     .hero-wrap {
