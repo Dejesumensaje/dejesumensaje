@@ -51,8 +51,10 @@ a.button-cta:hover {
 /* Layout */
 
 #hero {
+    display: flex;
+    flex-direction: column;
     background: #C0E4E3;
-    height: 100vh;
+    min-height: 100vh;
     box-sizing: border-box;
     padding: 20px 10px;
 }
@@ -107,7 +109,12 @@ a.button-cta:hover {
     /* Layout */
 
     #hero {
+        
         padding: 40px 50px;
+        align-items: stretch;
+        
+        justify-content: space-around;
+        flex-direction: column;
     }
 
     .hero-wrap {
@@ -115,6 +122,8 @@ a.button-cta:hover {
         align-items: center;
         text-align: left;
         justify-content: space-around;
+        flex-grow: 1;
+        flex-shrink: 0;
     }
 
     .text-hero {
