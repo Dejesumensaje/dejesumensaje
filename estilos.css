@@ -127,13 +127,15 @@ a.button-cta:hover {
 
 }
 
-@media (min-width: 1400px) {
-    #hero {
+@media (min-width: 1600px) {
+    .content-wrap {
+        width: 1400px;
         margin: 0 auto;
     }
 
     .hero-wrap {
-        width: 1200px;
+        width: 1300px;
+        margin: 0 auto;
     }
 
 }
