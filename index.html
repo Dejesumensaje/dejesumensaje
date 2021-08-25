@@ -16,6 +16,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <script src="./functions.js"></script>
 </head>
 <body>
     
@@ -34,8 +35,8 @@
             <nav>
 
                 <ul>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#my-work">Work</a></li>
+                    <li onclick="scrollToPortfolio()"><a href="#" onclick="scrollToPortfolio()">About</a></li>
                 </ul>
 
             </nav>
@@ -49,7 +50,7 @@
             <div class="text-hero">
                 <h1>Hi, I'm William Montoya.</h1>
                 <p>A journalist, developer, and product designer who loves to create bridges between people and possibilities.</p>
-                <a href="#" class="button-cta">Check out my work</a>
+                <a href="#my-work" class="button-cta">Check out my work</a>
             </div>
 
             <div class="img-hero">
@@ -65,7 +66,7 @@
 
     <!-- Work -->
 
-    <main>
+    <main id="my-work">
 
         <section class="work">
 
@@ -139,7 +140,7 @@
 
         <section class="contact">
 
-            <h2><a href="mailto:william@dejesumensaje.com">william@dejesumensaje.com</a></h2>
+            <h2><a href="mailto:william@dejesumensaje.com?subject=Hi, William!">william@dejesumensaje.com</a></h2>
 
             <p>Let’s work, play, create together.</p>
 
