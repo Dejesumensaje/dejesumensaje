@@ -21,6 +21,11 @@ h2 {
     line-height: 36px;
 }
 
+h2 a {
+    font-size: 24px;
+    line-height: 36px;
+}
+
 h4 {
     font-family: "PT Serif", serif;
     font-style: italic;
@@ -127,6 +132,32 @@ main {
 
 footer {
     background: #F2EFAA;
+    height: 400px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact h2 a {
+    font-size: 24px;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.links li {
+    margin: 0 20px 0 0;
+}
+
+.links li:last-child {
+    margin: 0;
 }
 
 
@@ -142,6 +173,11 @@ footer {
     }
 
     h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    h2 a {
         font-size: 36px;
         line-height: 48px;
     }
@@ -195,6 +231,10 @@ footer {
         max-width: 90%;
     }
 
+    .contact h2 a {
+        font-size: 42px;
+    }
+
 }
 
 @media (min-width: 1600px) {
@@ -206,6 +246,10 @@ footer {
     .hero-wrap {
         width: 1300px;
         margin: 0 auto;
+    }
+
+    .contact {
+        width: 1300px;
     }
 
 }
