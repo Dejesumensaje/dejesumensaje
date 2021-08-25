@@ -97,6 +97,9 @@ a.button-cta:hover {
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: center;
 }
 
 .img-hero img {
@@ -122,6 +125,10 @@ main {
     max-width: 50%;
 }
 
+footer {
+    background: #F2EFAA;
+}
+
 
 /* Responsive */
 
@@ -131,6 +138,7 @@ main {
 
     h1 {
         font-size: 48px;
+        line-height: 60px;
     }
 
     h2 {
