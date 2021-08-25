@@ -5,15 +5,26 @@ body {
     font-family: "PT Serif", serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
 }
 
 h1 {
     font-size: 28px;
-    line-height: auto;
+    line-height: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+h4 {
+    font-family: "PT Serif", serif;
+    font-style: italic;
+    margin: 0 0 10px 0;
 }
 
 a, p {
@@ -92,6 +103,25 @@ a.button-cta:hover {
     max-width: 70%;
 }
 
+main {
+    padding: 125px 40px 0;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.img-work {
+    margin-bottom: 30px;
+}
+
+.img-work img {
+    max-width: 50%;
+}
+
 
 /* Responsive */
 
@@ -101,6 +131,11 @@ a.button-cta:hover {
 
     h1 {
         font-size: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 48px;
     }
 
     a.button-cta {
@@ -128,6 +163,28 @@ a.button-cta:hover {
 
     .img-hero img {
         max-width: 100%;
+    }
+
+    .work {
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+        margin-bottom: 200px;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: 0 auto 200px;
+    }
+
+    .img-work {
+        width: 50%;
+    }
+
+    .card {
+        width: 50%;
+    }
+
+    .img-work img {
+        max-width: 90%;
     }
 
 }
