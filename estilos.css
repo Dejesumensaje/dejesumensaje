@@ -403,4 +403,8 @@ footer {
         width: 1300px;
     }
 
+    main .intro {
+        width: 60%;
+    }
+
 }
