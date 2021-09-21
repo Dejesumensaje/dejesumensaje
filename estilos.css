@@ -373,7 +373,7 @@ footer {
         display: grid;
         grid-template-columns: 50% 30%;
         gap: 50px 100px;
-        padding: 0 0 190px;
+        padding: 0 0 150px;
     }
 
     section.resume .container h3 {
@@ -410,6 +410,10 @@ footer {
 
     main .intro {
         width: 60%;
+    }
+
+    section.statement .container {
+        width: 1000px;
     }
 
     section.resume .container {
