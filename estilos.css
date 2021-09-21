@@ -407,4 +407,8 @@ footer {
         width: 60%;
     }
 
+    section.resume .container {
+        width: 1300px;
+    }
+
 }
