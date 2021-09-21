@@ -25,6 +25,12 @@ h2 {
     line-height: 36px;
 }
 
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
 h2 a {
     font-size: 24px;
     line-height: 36px;
@@ -34,6 +40,7 @@ h4 {
     font-family: "PT Serif", serif;
     font-style: italic;
     margin: 0 0 10px 0;
+    font-size: 16px;
 }
 
 b {
@@ -89,6 +96,42 @@ main .intro p {
 
 section.statement p:last-of-type {
     margin-bottom: 50px;
+}
+
+section.resume h3 {
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+section.resume p {
+    margin: 0 0 15px;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+section.resume ul {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    list-style: disc outside;
+}
+
+section.resume ul > li {
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 10px;
+    margin: 0 0 10px 10px;
+    display: list-item;
+}
+
+section.resume h5 {
+    font-family: "Pt serif", serif;
+    width: fit-content;
+    background: #C0E4E3;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    margin-right: 10px;
 }
 
 /* Layout */
@@ -183,6 +226,17 @@ section.statement .container {
     max-width: 50%;
 }
 
+section.resume .container {
+    padding: 0 40px 60px;
+}
+
+section.resume .skill {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
 footer {
     background: #F2EFAA;
     height: 400px;
@@ -274,7 +328,7 @@ footer {
         margin-bottom: 200px;
         justify-content: space-evenly;
         width: 90%;
-        margin: 0 auto 200px;
+        margin: 0 auto 100px;
     }
 
     .img-work {
@@ -309,8 +363,27 @@ footer {
 
     section.statement .container {
         width: 660px;
-        padding: 60px 0 120px;
+        padding: 60px 0 60px;
         margin: 0 auto;
+    }
+
+    section.resume .container {
+        margin: 0 auto;
+        width: 950px;
+        display: grid;
+        grid-template-columns: 50% 30%;
+        gap: 50px 100px;
+        padding: 0 0 190px;
+    }
+
+    section.resume .container h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    section.resume .container .education {
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
 
 }
