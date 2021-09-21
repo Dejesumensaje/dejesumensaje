@@ -389,6 +389,11 @@ footer {
 }
 
 @media (min-width: 1600px) {
+    main .container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+
     .content-wrap {
         width: 1400px;
         margin: 0 auto;
