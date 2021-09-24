@@ -533,7 +533,7 @@ footer {
     .details {
         width: 1200px;
     }
-    figure {
+    section.overview figure {
         width: 1200px;
         margin: 0 auto;
     }
