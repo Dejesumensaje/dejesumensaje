@@ -533,6 +533,10 @@ footer {
     .details {
         width: 1200px;
     }
+    figure {
+        width: 1200px;
+        margin: 0 auto;
+    }
 }
 
 
