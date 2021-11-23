@@ -323,9 +323,10 @@ main#case {
 }
 
 .wrap-flex-problem {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 25px 65px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 0;
+    justify-content: center;
 }
 
 figure img {
@@ -362,20 +363,20 @@ figure img {
 }
 
 .problem {
-    width: 400px;
+    max-width: 100%;
     padding: 20px;
     background: #C0E4E3;
     border-radius: 10px;
-    margin: 0 auto 20px;
+    margin: 0 auto 40px;
     height: fit-content;
 }
 
 .hypothesis {
-    width: 400px;
+    max-width: 100%;
     padding: 20px;
     background: #F2EFAA;
     border-radius: 10px;
-    margin: 0 auto 20px;
+    margin: 0 auto;
     height: fit-content;
 }
 
@@ -563,6 +564,19 @@ footer {
 
     .wrap-flex {
         justify-content: flex-start;
+    }
+
+    .wrap-flex-problem {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .problem {
+        width: 40%;
+    }
+
+    .hypothesis {
+        width: 40%;
     }
 
     .insights {
