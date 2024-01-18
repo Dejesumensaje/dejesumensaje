@@ -131,8 +131,6 @@ section.resume ul > li {
     line-height: 32px;
 }
 
-
-
 section.resume h5 {
     font-family: "Pt serif", serif;
     width: fit-content;
@@ -425,6 +423,11 @@ footer {
     margin: 0;
 }
 
+.btn {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
 
 /* Responsive */
 
@@ -605,6 +608,12 @@ footer {
 
     .insight {
         margin-left: 20px;
+    }
+
+    .btn {
+        flex-direction: row;
+        gap: 20px;
+        align-items: flex-start;
     }
 }
 
