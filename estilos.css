@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 
-h1, h2, h3, h5, h6 {
+h1, h2, h3, h5, h6, a.button-cta {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     margin: 0 0 10px 0;
